@@ -1,0 +1,54 @@
+
+<img id="bg" src="">
+
+<div id="preheader">
+  <h1>The Anamal Analasis</h1>
+</div>
+
+<div id="header">
+  <div id="links">
+    <a class="navlink" href="#"> Home </a>
+    <span class="navlink-spacer">
+    </span>
+    <a class="navlink" href="#">Buisness</a>
+  </div>
+</div>
+
+<div id="content">
+  <div class="article">
+    <h2>Headline 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ornare neque. Phasellus bibendum felis sodales orci finibus pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut quis porttitor leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae sodales diam. Nulla lectus nisl, maximus nec finibus quis, posuere sed dolor. Ut fermentum luctus arcu a congue. Phasellus consequat, magna ac dictum pretium, tortor lorem maximus lorem, nec facilisis arcu ante eget neque. Sed egestas neque ut ligula vulputate, semper condimentum orci luctus. Integer finibus euismod mi sit amet molestie. Etiam luctus urna ut velit dictum tempus. Phasellus egestas diam lobortis euismod vestibulum. Vestibulum feugiat massa vel feugiat vehicula. Proin a mauris laoreet, bibendum leo in, lobortis elit. Integer in lobortis arcu, dignissim pulvinar lacus.</p>
+  </div>
+  <div class="article"></div>
+  <div class="article"></div>
+</div>
+
+<div id="footer"></div>
+
+
+
+
+
+
+
+
+body {
+  text-align: center;
+}
+
+hr {
+  width: ;
+  height:;
+  background-color: ;
+  border: ;
+}
+
+#bg {
+  position: fixed;
+  z-index: -999;
+  width: 
+}
+
+.navlink-spacer {
+  
+}
