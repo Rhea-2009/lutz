@@ -5,8 +5,6 @@ body {
   color: black;
   text-align: left;
   font-family: Afacad;
-  margin-left: 10%;
-  margin-right: 10%;
 }
   
   #bg {
@@ -38,6 +36,8 @@ h2.heading {
   border-radius: 9px;
   background-color: #d3dbec;
   color: #666666;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 a {
