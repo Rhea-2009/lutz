@@ -8,6 +8,14 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
+  
+  #bg {
+    width: 100vw;
+    height: 100vh;
+    z-index: -999;
+    position: fixed;
+    top: 0px;
+  }
 
 .heading {
   font-family: 'Edu AU VIC WA NT Hand', cursive;
