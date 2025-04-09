@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: #aaf;
 }
 
 #content, #album, #info {
@@ -7,18 +8,16 @@ body {
 }
 
 #content {
-  border: solid 2px lightblue;
   width: 50%;
+  margin:
 }
 
 #album {
-  border: solid 2px pink;
   width: 30%;
 }
 
 #info {
-  border: solid 2px lightgreen;
-  max-width: 20%;
+  max-width: 18%;
 }
 
 #player button {
@@ -51,7 +50,7 @@ body {
 }
 
 .track-player::-webkit-media-controls-panel {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: lightblue
 }
 
 .track-player {
@@ -60,4 +59,19 @@ body {
 
 #album-cover {
   width: 100%;
+}
+
+#info img {
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+p {
+  margin: 10px;
 }
