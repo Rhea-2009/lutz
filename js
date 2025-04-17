@@ -39,8 +39,12 @@ window.addEventListener("keydown", (_key) => {
 });
 
 
-
-
+  Hey its javi i found the error and its in const code blocks,
+  for the UNCHECK_ICON you have extra slashes, you have this  '/<svg   you need this  '<svg 
+  and also in UNCHECK_ICON its at the end and you have   />/</svg>'   you need    /></svg>'
+  and for the other one its in CHECK_ICON you just need to hit backspace infront of the closing </svg>' 
+    those were the only errors the rest worked perfectly i didnt fix them btw i didnt know if you wanted me to or not
+      
 
 
 
