@@ -64,3 +64,21 @@ hr {
   font-size: 120%;
   text-align: center;
 }
+  
+#nav-list {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+#nav-list > li {
+    display: inline-block;
+    width: 19%;
+  }
+  
+ #nav-list ul{
+    display: none;
+  }
+  
+  #nav-list li:hover ul{
+    display: block;
+  }
