@@ -19,6 +19,9 @@ body {
 
 #head {
   text-align: center;
+  text-decoration: underline overline wavy 2px white;
+  font-variant: small-caps;
+  font-family: sans serif;
 }
 
 #list-grp {
