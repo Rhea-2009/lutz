@@ -66,19 +66,38 @@ hr {
 }
   
 #nav-list {
-    display: inline-block;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  position: relative;
+  background-color: #d3dbec;
   }
   
 #nav-list > li {
-    display: inline-block;
-    width: 19%;
+  flex-grow: 1;
+  display: block;
+  margin: auto
   }
   
- #nav-list ul{
-    display: none;
+#nav-list ul{
+  display: none;
+  background-color: #d3dbec;
+  width: 100%;
   }
   
-  #nav-list li:hover ul{
-    display: block;
+  #nav-list li:hover {
+    background-color: #d1bec5;
+    color: gray;
+  }
+  
+#nav-list li:hover ul{
+  display: block;
+  }
+  
+#nav-list li ul {
+  list-style-type: none;
+  padding: 0px;
+  position: absolute;
+  
   }
