@@ -66,18 +66,26 @@ hr {
 }
   
 #nav-list {
+  padding: 0px;
   display: flex;
   justify-content: center;
   align-content: center;
   list-style-type: none;
   position: relative;
   background-color: #d3dbec;
-  }
+}
   
 #nav-list > li {
   flex-grow: 1;
   display: block;
-  margin: auto
+  position: relative;
+  text-align: center;
+  margin: auto;
+  }
+  
+  #nav-list li a {
+    display: inline-block;
+    width: 100%;
   }
   
 #nav-list ul{
@@ -99,5 +107,6 @@ hr {
   list-style-type: none;
   padding: 0px;
   position: absolute;
+  width: 100%;
   
   }
