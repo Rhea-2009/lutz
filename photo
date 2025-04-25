@@ -1,0 +1,77 @@
+
+
+<div id="photo-row">
+  <div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+  <p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div>
+<div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+  <p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div>
+ <div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+<p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div>
+</div>
+
+<div id="photo-row">
+  <div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+  <p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div>
+<div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+  <p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div>
+ <div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+<p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div>  
+</div>
+
+<div id="photo-row">
+  <div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+  <p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div>
+<div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+  <p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div>
+ <div class="photo-container">
+    <img src="https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg" width="100%" alt=" a strong horse, stalian."></img>
+<p>This was  my childhood horse who saddly passed away 2000 years ago.</p>
+  </div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+#photo-row {
+  display: flex;
+}
+
+.photo-container {
+  flex-grow: 1;
+  border: 3px solid black;
+  margin: 1em;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+}
+
+.photo-container img {
+  border-radius: 20px;
+  }
+
+.photo-container img {
+  max-height: 150px;
+}
