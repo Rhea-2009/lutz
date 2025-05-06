@@ -1,3 +1,4 @@
+
 let photoArr = document.querySelectorAll(".photo-container img");
 let currentIndex = 0;
 
@@ -21,17 +22,22 @@ function hideBig(_self) {
 }
 
 window.addEventListener("keydown", (_key) => {
-  console.log(key.code);
-  if (_key.code == "ArrowRhight") increaseIndex();
-  else if (_key.code == "Arrowleft") decreaseIndex();
-})
+  if (_key.code == "ArrowRight") increaseIndex();
+  else if (_key.code == "ArrowLeft") decreaseIndex();
+  updateBig();
+});
 
 function increaseIndex() {
   currentIndex++;
-  if (currentIndex >= photoArr.length) currentIndex = 0;
-  
+  if (currentIndex >= photoArr.length) currentIndex = 0;  
 }
 
 function decreaseIndex() {
   currentIndex--;
+  if (currentIndex < 0) currentIndex = photoArr.length - 1;
+}
+
+function updateBig() {
+  const BIG_IMG = document.getElementById("big-img");
+  BIG_IMG.setAttribute("src", photoArr[currentIndex].src);
 }
