@@ -2,7 +2,7 @@
 
 
 function computePythag() {
-  let _inputArr = document.querrySelectorAll("input");
+  let _inputArr = document.querySelectorAll("input");
   let _a = _inputArr[0].value;
   let _b = _inputArr[1].value;
   let _c = _inputArr[2].value;
