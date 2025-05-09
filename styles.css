@@ -1,3 +1,4 @@
+
 body {
   color: black; 
   background-color: #b0d4d5; 
@@ -21,7 +22,7 @@ body {
   text-align: center;
   font-size: 300%;
   color: black;
-  text-shadow: #ecd3dc 2px 2px;
+  text-shadow: #ecd3dc 3px 3px;
   font-family: cursive;
 }
 
@@ -110,3 +111,7 @@ hr {
   width: 100%;
   
   }
+
+#compute {
+  margin: 25px;
+}
