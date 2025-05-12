@@ -1,1 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
+.square {
+  float: left;
+  border: solid lightgreen 3px;
+  width: 32vw;
+  font-size: xxx-large;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#winner {
+  display: none;
+  
+}
