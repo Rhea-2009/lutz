@@ -1,4 +1,5 @@
 
+
 body {
   color: black; 
   background-color: #b0d4d5; 
@@ -119,4 +120,16 @@ hr {
 
 #pythag {
   text-align: center;
+}
+
+.info {
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  padding: 5px;
+  border-radius: 9px;
+  background-color: white;
+  color: #666666;
+  margin-left: 15%;
+  margin-right: 15%;
 }
