@@ -12,10 +12,20 @@
     
     <img id="bg" src="https://yacs-2.github.io/lutz/resource/bg.png">
     <div class="bordered">
-    <h2 style="text-decoration:underline wavy 2px white; font-variant:small-caps;" class="heading">Welcome to Rhea's Home Page</h2>
+    <h2 style="text-decoration:underline wavy 2px white; font-variant:small-caps;" class="heading">Welcome <span id="userspan"></span> to Rhea's Home Page</h2>
     </div>
     <hr>
-    <div class="bordered">
+    
+    <script>
+      let urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has("variable1")) {
+        let username = urlParams.get("variable1");
+        let userspan = document.getElementById("username");
+        userspan.innerText = "," + username + ",";
+      } 
+    </script>
+    
+      <div class="bordered">
       <h2 style="text-decoration:underline wavy 2px white; font-variant:small-caps;" class="heading">About me:</h2>
       <div class="info">
         <p><strong>Contact</strong></p>
